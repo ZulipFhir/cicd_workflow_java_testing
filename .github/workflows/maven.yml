@@ -34,7 +34,7 @@ jobs:
       with:
         image: cicdworkflowtestjava/test
         tags: latest
-        registry: 829312
+        registry: https://hub.docker.com/u/829312
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
